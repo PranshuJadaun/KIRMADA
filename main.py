@@ -7,7 +7,7 @@ import tempfile
 # Load your deepfake detection model
 model = tf.keras.models.load_model("deepfake-detection-model1.h5")
 
-st.title("KIRMADA \n Deepfake Video Detection")
+st.title("DeepShield \n Deepfake Video Detection")
 
 # Video Upload
 uploaded_video = st.file_uploader("Upload a video to check for deepfake", type=["mp4", "mov", "avi"])
